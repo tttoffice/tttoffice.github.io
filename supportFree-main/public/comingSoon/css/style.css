@@ -1,0 +1,92 @@
+/*Start Login*/
+.body-head{
+    font-family: cairo;
+    background-image: url("../images/login.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.icons{
+    margin-top: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 5px
+}
+
+.icons img{
+    width: 200px;
+    margin-bottom: 15px;
+    display: inline-block
+}
+.icons p{
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.divider{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.divider span{
+    position: relative
+        
+}
+
+.divider span:before,
+.divider span:after {
+    content: '';
+    height: 1px;
+    width: 150px;
+    max-width: 150px;
+    -webkit-flex: 1;
+    flex: 1;
+    opacity: 0.2;
+    background-color: #627382;
+    top: 17px;
+    left: 70px;
+    position: absolute;
+}
+
+.divider span:after{
+    left: unset;
+    right: 70px
+} 
+.icon-btns{
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+.icon-btns img{
+    height: 60px
+}
+/*
+.timer{
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+}
+*/
+.timer div > span{
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: rgba(255,255,255,.4);
+    border: 1px solid #ccc;
+    margin-bottom: 20px
+}
+.timer div > span span{
+    margin-right: 4px
+}
